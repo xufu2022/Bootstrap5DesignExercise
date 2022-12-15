@@ -1,0 +1,19 @@
+{
+  "name": "b54",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "csass": "sass --watch scss:assets/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2"
+  },
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}

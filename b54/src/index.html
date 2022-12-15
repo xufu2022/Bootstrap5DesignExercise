@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body     class="row bg-dark text-light position-relative w-100 vh-100 text-shadow">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width: 80px">
+        <div class="container">
+            <div>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                        <a href="#" class="nav-link active" aria-current="page"><i
+                                class="bi bi-house text-success"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="About">
+                        <a href="#About" class="nav-link"><i class="bi bi-person"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Services">
+                        <a href="#Services" class="nav-link"><i class="bi bi-briefcase"></i></a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Contact">
+                        <a href="#Contact" class="nav-link"><i class="bi bi-telephone"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header
+    class="position-relative vh-100 col-10 col-md-4"
+    style="
+      background: url(https://source.unsplash.com/SvKJUXV_5cQ) center/cover
+        no-repeat;
+    "
+  >
+  <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+    <h2 class="display-1 fw-bolder lh-lg">Joe Man</h2>
+    <h4 class="font-monospace">Developer</h4>
+    <div class="row mt-3 mx-auto">
+      <ul class="row list-unstyled fs-5">
+        <li class="col">
+          <a href=""><i class="bi bi-facebook text-light"></i></a>
+        </li>
+        <li class="col">
+          <a href=""><i class="bi bi-github text-light"></i></a>
+        </li>
+        <li class="col">
+          <a href=""><i class="bi bi-linkedin text-light"></i></a>
+        </li>
+        <li class="col">
+          <a href=""><i class="bi bi-globe text-light"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </header> 
+    <!-- MAIN -->
+    <!-- MAIN > ABOUT -->
+    <!-- ABOUT > CV BUTTON & CONTENT-->
+    <!-- MAIN > SERVICES -->
+    <!-- SERVICES > DEVELOPMENT OFFCANVAS -->
+    <!-- SERVICES > SEO OFFCANVAS -->
+    <!-- SERVICES > DATA BASE OFFCANVAS -->
+    <!-- SERVICES > DATA SECURITY OFFCANVAS -->
+    <!-- CONTACT -->
+    <!-- FOOTER -->
+
+    <!-- script for tooltips -->
+    <script>
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+</body>
+
+</html>
