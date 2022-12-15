@@ -11,7 +11,7 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body     class="row bg-dark text-light position-relative w-100 vh-100 text-shadow">
+<body class="row bg-dark text-light position-relative w-100 vh-100 text-shadow">
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width: 80px">
@@ -36,43 +36,559 @@
         </div>
     </nav>
     <!-- HEADER -->
-    <header
-    class="position-relative vh-100 col-10 col-md-4"
-    style="
+    <header class="position-relative vh-100 col-10 col-md-4" style="
       background: url(https://source.unsplash.com/SvKJUXV_5cQ) center/cover
         no-repeat;
-    "
-  >
-  <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
-    <h2 class="display-1 fw-bolder lh-lg">Joe Man</h2>
-    <h4 class="font-monospace">Developer</h4>
-    <div class="row mt-3 mx-auto">
-      <ul class="row list-unstyled fs-5">
-        <li class="col">
-          <a href=""><i class="bi bi-facebook text-light"></i></a>
-        </li>
-        <li class="col">
-          <a href=""><i class="bi bi-github text-light"></i></a>
-        </li>
-        <li class="col">
-          <a href=""><i class="bi bi-linkedin text-light"></i></a>
-        </li>
-        <li class="col">
-          <a href=""><i class="bi bi-globe text-light"></i></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  </header> 
+    ">
+        <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+            <h2 class="display-1 fw-bolder lh-lg">Joe Man</h2>
+            <h4 class="font-monospace">Developer</h4>
+            <div class="row mt-3 mx-auto">
+                <ul class="row list-unstyled fs-5">
+                    <li class="col">
+                        <a href=""><i class="bi bi-facebook text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href=""><i class="bi bi-github text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href=""><i class="bi bi-linkedin text-light"></i></a>
+                    </li>
+                    <li class="col">
+                        <a href=""><i class="bi bi-globe text-light"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <!-- MAIN -->
-    <!-- MAIN > ABOUT -->
-    <!-- ABOUT > CV BUTTON & CONTENT-->
-    <!-- MAIN > SERVICES -->
-    <!-- SERVICES > DEVELOPMENT OFFCANVAS -->
-    <!-- SERVICES > SEO OFFCANVAS -->
-    <!-- SERVICES > DATA BASE OFFCANVAS -->
-    <!-- SERVICES > DATA SECURITY OFFCANVAS -->
-    <!-- CONTACT -->
+    <main class="row col-12 col-md-8">
+        <!-- MAIN > ABOUT -->
+        <section id="About" class="ms-3">
+            <h2 class="font-monospace mt-4">about me</h2>
+            <div class="row col-12 text-success mt-3">
+                <div class="col">Exp / 10+ years</div>
+                <div class="col">Location / Berlin</div>
+                <div class="col">Domain / Freelance</div>
+            </div>
+            <p class="text-secondary mt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
+                perspiciatis quisquam quas fugit fuga quam impedit ipsum soluta
+                necessitatibus doloribus, maiores iusto asperiores, a nemo assumenda
+                quia consectetur iure blanditiis!
+            </p>
+            <!-- ABOUT > CV BUTTON & CONTENT-->
+            <!-- CV BUTTON-->
+            <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#ocAbout"
+                aria-controls="ocAbout">
+                CV
+            </button>
+            <!-- CV CONTENT-->
+            <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="ocAbout">
+                <div class="offcanvas-header">
+                    <h5 class="text-success">Resume</h5>
+                    <button type="button" class="btn-close btn-close-white"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <h4 class="display-4 mb-3">Norbert B. Menyhart</h4>
+                    <h4 class="display-6 mb-4 text-white-50">
+                      Full Stack Web Developer
+                    </h4>
+                    <h4 class="display-6 mb-2 font-monospace">About me</h4>
+                    <p class="text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                        doloremque nesciunt nulla adipisci totam doloribus delectus
+                        praesentium pariatur earum itaque quisquam aliquid corporis omnis
+                        architecto consectetur nisi, aspernatur deleniti eveniet?
+                      </p>
+                      <h4 class="display-6 mb-2 font-monospace">Career objective</h4>
+                      <p class="text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                        doloremque nesciunt nulla adipisci totam doloribus delectus
+                        praesentium pariatur earum itaque quisquam aliquid corporis omnis
+                        architecto consectetur nisi, aspernatur deleniti eveniet?
+                      </p>
+                      <h4 class="display-6 mb-2 font-monospace">
+                        Skills <small class="fs-6">(and still growing)</small>
+                      </h4>
+                      <p class="text-white-50">Troubleshooting</p>
+                      <div class="progress mb-1">
+                        <div
+                          class="
+                            progress-bar
+                            bg-success
+                            progress-bar-striped progress-bar-animated
+                          "
+                          role="progressbar"
+                          style="width: 95%"
+                        ></div>
+                      </div>
+                      <p class="text-white-50">Critical thinking</p>
+                      <div class="progress mb-1">
+                        <div
+                          class="
+                            progress-bar
+                            bg-success
+                            progress-bar-striped progress-bar-animated
+                          "
+                          role="progressbar"
+                          style="width: 95%"
+                        ></div>
+                      </div>
+                      <p class="text-white-50">Web designing</p>
+                      <div class="progress mb-1">
+                        <div
+                          class="progress-bar bg-success"
+                          role="progressbar"
+                          style="width: 100%"
+                        ></div>
+                      </div>
+                      <p class="text-white-50">Developing</p>
+                      <div class="progress mb-1">
+                        <div
+                          class="
+                            progress-bar
+                            bg-success
+                            progress-bar-striped progress-bar-animated
+                          "
+                          role="progressbar"
+                          style="width: 85%"
+                        ></div>
+                      </div>
+                      <p class="text-white-50">Active learning</p>
+                      <div class="progress mb-1">
+                        <div
+                          class="
+                            progress-bar
+                            bg-success
+                            progress-bar-striped progress-bar-animated
+                          "
+                          role="progressbar"
+                          style="width: 95%"
+                        ></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN > SERVICES -->
+        <section id="Services" class="ms-3">
+            <h2 class="font-monospace mt-4">my service</h2>
+            <div class="row row-cols-1 row-cols-md-2">
+          <!-- development -->
+          <div class="col card bg-transparent">
+            <div class="card-body">
+              <i class="bi bi-display h1 text-success"></i>
+              <h5 class="card-title mt-3">development</h5>
+              <p class="card-text">
+                Building a custom tailored solution based on your technical
+                specification..
+              </p>
+              <button
+                class="btn btn-outline-success w-100"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#oc_dev"
+                aria-controls="oc_dev"
+              >
+                more...
+              </button>
+              <!-- development > offcanvas -->
+              <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="oc_dev"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="text-success">Web Development</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h4 class="display-4 mb-3">What is a web developer?</h4>
+
+                  <p class="text-white-50 mt-2">
+                    A web developer is a programmer who specializes in, or is
+                    specifically engaged in, the development of World Wide Web
+                    applications using a client–server model. The applications
+                    typically use <i class="fab fa-html5"></i> HTML,<i
+                      class="fab fa-css3-alt"
+                    ></i>
+                    CSS and <i class="fab fa-js"></i> JavaScript in the
+                    client,<i class="fab fa-php"></i> PHP, ASP.NET (C#),
+                    <i class="fab fa-python"></i> Python,<i
+                      class="fab fa-node-js"
+                    ></i>
+                    Node.js, Go or <i class="fab fa-java"></i>Java in the
+                    server, and http for communications between client and
+                    server. A web content management system is often used to
+                    develop and maintain web applications.
+                  </p>
+                  <h4 class="display-4 mb-3">
+                    What is a Front-end web developer?
+                  </h4>
+                  <i class="fab fa-html5 fa-3x me-3"></i
+                  ><i class="fab fa-css3-alt fa-3x me-3"></i
+                  ><i class="fab fa-js fa-3x me-3"></i>
+                  <i class="fab fa-bootstrap fa-3x me-3"></i>
+                  <p class="text-white-50 mt-2">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quaerat, laudantium omnis tenetur assumenda cumque, debitis
+                    rerum ex quos natus quam sequi aliquid, nisi molestiae non
+                    nam? Provident at sint aspernatur!
+                  </p>
+                  <h4 class="display-4 mb-3">
+                    What is a Back-end web developer?
+                  </h4>
+                  <i class="fab fa-js fa-3x me-3 text-warning"></i
+                  ><i class="fab fa-php fa-3x me-3"></i
+                  ><i class="fab fa-python fa-3x me-3"></i>
+                  <i class="fab fa-node-js fa-3x me-3"></i>
+
+                  <p class="text-white-50 mt-2">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quaerat, laudantium omnis tenetur assumenda cumque, debitis
+                    rerum ex quos natus quam sequi aliquid, nisi molestiae non
+                    nam? Provident at sint aspernatur!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SEO -->
+          <div class="col card bg-transparent">
+            <div class="card-body">
+              <i class="bi bi-display h1 text-success"></i>
+              <h5 class="card-title mt-3">SEO</h5>
+              <p class="card-text">
+                Building a custom tailored solution based on your technical
+                specification..
+              </p>
+              <button
+                class="btn btn-outline-success w-100"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#oc_seo"
+                aria-controls="oc_seo"
+              >
+                more...
+              </button>
+              <!-- SEO > offcanvas -->
+              <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="oc_seo"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="text-success">SEO</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <i class="fab fa-searchengin fa-4x mb-4"></i>
+                  <h4 class="display-4 mb-3">What is SEO?</h4>
+                  <p class="text-white-50">
+                    Search engine optimization (SEO) is the process of improving
+                    the quality and quantity of website traffic to a website or
+                    a web page from search engines.
+                  </p>
+                  <h4 class="display-4 mb-3">Do you need an SEO expert?</h4>
+                  <p class="text-white-50">
+                    An SEO expert is someone trained to improve your visibility
+                    on search engines. In addition to that, you may want to
+                    consider hiring an SEO professional that can help you audit
+                    your pages. Deciding to hire an SEO is a big decision that
+                    can potentially improve your site and save time.
+                  </p>
+                  <h4 class="display-4 mb-3">Our SEO services:</h4>
+                  <ul class="text-white-50">
+                    <li>Review of your site content or structure</li>
+                    <li>
+                      Technical advice on website development: for example,
+                      hosting, redirects, error pages, use of JavaScript
+                    </li>
+                    <li>Content development</li>
+                    <li>Management of online business development campaigns</li>
+                    <li>Keyword research</li>
+                    <li>SEO training</li>
+                    <li>Expertise in specific markets and geographies</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- data base -->
+          <div class="col card bg-transparent">
+            <div class="card-body">
+              <i class="bi bi-display h1 text-success"></i>
+              <h5 class="card-title mt-3">data base</h5>
+              <p class="card-text">
+                Building a custom tailored solution based on your technical
+                specification..
+              </p>
+              <button
+                class="btn btn-outline-success w-100"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#oc_db"
+                aria-controls="oc_db"
+              >
+                more...
+              </button>
+              <!-- data base > offcanvas -->
+              <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="oc_db"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="text-success">data base</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <i class="fas fa-database fa-4x mb-4"></i>
+                  <h4 class="display-4 mb-3">What is Database?</h4>
+                  <p class="text-white-50">
+                    A database is an organized collection of structured
+                    information, or data, typically stored electronically in a
+                    computer system. A database is usually controlled by a
+                    database management system (DBMS). ... Most databases use
+                    structured query language (SQL) for writing and querying
+                    data.
+                  </p>
+                  <h4 class="display-4 mb-3">
+                    Database Management System (DBMS)
+                  </h4>
+                  <p class="text-white-50">
+                    A database management system (DBMS) is a software package
+                    designed to define, manipulate, retrieve and manage data in
+                    a database. A DBMS generally manipulates the data itself,
+                    the data format, field names, record structure and file
+                    structure. It also defines rules to validate and manipulate
+                    this data.
+                  </p>
+                  <h4 class="display-4 mb-3">
+                    What are the types of databases?
+                  </h4>
+                  <ul class="text-white-50">
+                    <li>NoSQL databases.</li>
+                    <li>Cloud databases.</li>
+                    <li>Columnar databases.</li>
+                    <li>Wide column databases.</li>
+                    <li>Object-oriented databases.</li>
+                    <li>Key-value databases.</li>
+                    <li>Hierarchical databases.</li>
+                    <li>Document databases.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- data security -->
+          <div class="col card bg-transparent">
+            <div class="card-body">
+              <i class="bi bi-display h1 text-success"></i>
+              <h5 class="card-title mt-3">data security</h5>
+              <p class="card-text">
+                Building a custom tailored solution based on your technical
+                specification..
+              </p>
+              <button
+                class="btn btn-outline-success w-100"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#oc_ds"
+                aria-controls="oc_ds"
+              >
+                more...
+              </button>
+              <!-- data security > offcanvas -->
+              <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="oc_ds"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="text-success">data security</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <i class="fas fa-shiled-alt fa-4x mb-4"></i>
+                  <h4 class="display-4 mb-3">What is Data security?</h4>
+                  <p class="text-white-50">
+                    Data security means protecting digital data, such as those
+                    in a database, from destructive forces and from the unwanted
+                    actions of unauthorized users, such as a cyberattack or a
+                    data breach.
+                  </p>
+                  <h4 class="display-4 mb-3">
+                    What are Data Security Standards (DSS)?
+                  </h4>
+                  <p class="text-white-50">
+                    PCI DSS is a set of regulations created by 5 major payment
+                    card brands: Visa, MasterCard, American Express, Discover,
+                    and JCB. The latest version of PCI DSS (version 3.2) was
+                    released in April 2016 with the Council setting these
+                    requirements for any business that processes credit or debit
+                    card transactions. In a nutshell, DSS requires that your
+                    organization is compliant with 12 general data security
+                    requirements that include over 200 sub-requirements. The
+                    types of requirements and sub-requirement ultimately depend
+                    on your business and how many credit card transactions that
+                    you perform on a yearly basis. Just checking the PCI DSS
+                    compliance boxes isnt the best route to travel if your
+                    organization wants to ensure effective protection of every
+                    data security situation.
+                  </p>
+                  <h4 class="display-4 mb-3">Our offers for (DS)</h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <button
+                        type="button"
+                        class="btn btn-outline-success"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#category-1"
+                        aria-expanded="false"
+                        aria-controls="category-1"
+                      >
+                        Category-1
+                      </button>
+                      <div class="collapse" id="category-1">
+                        <div class="card card-body bg-dark text-white-50">
+                          (Build and Maintain a Secure Network) focuses on the
+                          network security of your cardholder data environment
+                          (CDE). Your organization must address the creation and
+                          maintenance of a network protected from malicious
+                          individuals via physical and virtual means. Using
+                          hardware and/or software firewall technology can help
+                          to provide perimeter protection for a CDE, thus
+                          helping to ensure that public information cannot be
+                          used by hackers to access your systems.
+                        </div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <button
+                        type="button"
+                        class="btn btn-outline-success"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#category-2"
+                        aria-expanded="false"
+                        aria-controls="category-2"
+                      >
+                        Category-2
+                      </button>
+                      <div class="collapse" id="category-2">
+                        <div class="card card-body bg-dark text-white-50">
+                          (Protect Cardholder Data) focuses on guidance and
+                          testing procedures for data retention, transmission
+                          and disposal policies. Basically, this category is a
+                          reflection on how your company handles cardholder data
+                          (CHD) when it is necessary and how it disposes of said
+                          data when it is unnecessary to store it.
+                        </div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <button
+                        class="btn btn-outline-success"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#Category-3"
+                        aria-expanded="false"
+                        aria-controls="Category-3"
+                      >
+                        Category 3
+                      </button>
+                      <div class="collapse" id="Category-3">
+                        <div class="card card-body bg-dark text-white-50">
+                          (Maintain a Vulnerability Management Program) focuses
+                          on assessing system and application vulnerabilities
+                          (current and future). The Council provides guidance
+                          and testing procedures that pertain to malware,
+                          software patches, policies and internal procedures for
+                          the basis of this category.
+                        </div>
+                      </div>
+                    </li>
+                    <li class="mb-2">
+                      <button
+                        class="btn btn-outline-success"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#Category-4"
+                        aria-expanded="false"
+                        aria-controls="Category-4"
+                      >
+                        Category 4
+                      </button>
+                      <div class="collapse" id="Category-4">
+                        <div class="card card-body bg-dark text-white-50">
+                          (Implement Strong Access Control Measures) focuses on
+                          limiting availability to authorized persons or
+                          applications via the creation of strong security
+                          mechanisms. Remaining selective as to who retains PCI
+                          administrative access allows your organization to
+                          control measures that allow you to achieve security
+                          and PCI DSS compliance.
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+                <!-- SERVICES > DEVELOPMENT OFFCANVAS -->
+                <!-- SERVICES > SEO OFFCANVAS -->
+                <!-- SERVICES > DATA BASE OFFCANVAS -->
+                <!-- SERVICES > DATA SECURITY OFFCANVAS -->
+              </div>
+            <!-- SERVICES > DEVELOPMENT OFFCANVAS -->
+            <!-- SERVICES > SEO OFFCANVAS -->
+            <!-- SERVICES > DATA BASE OFFCANVAS -->
+            <!-- SERVICES > DATA SECURITY OFFCANVAS -->
+        </section>
+        <!-- CONTACT -->
+        <section id="Contact" class="ms-3">
+            <h2 class="font-monospace mt-4">contact me</h2>
+            <ul class="row list-unstyled text-sm-start text-center">
+              <li class="text-success">Menyhart Media LLT</li>
+              <li class="col-6 p-2">
+                <i class="bi bi-geo-alt text-success"></i> 21 Jump Street 32510 The
+                City
+              </li>
+              <li class="col-6 p-2">
+                <i class="bi bi-telephone text-success"></i> +555-555-5555
+              </li>
+              <li class="col-6 p-2">
+                <i class="bi bi-phone text-success"></i> +751-6544-648
+              </li>
+              <li class="col-6 p-2">
+                <i class="bi bi-envelope text-success"></i> joe@mail.com
+              </li>
+            </ul>
+          </section>
+
+
+
+
+
+    </main>
+
     <!-- FOOTER -->
 
     <!-- script for tooltips -->
