@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<title>My Bio</title>
+<body class="vh-100 bg-dark text-light">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a href="#" class="navbar-brand"><span class="badge bg-danger shadow">NorborBM</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav me-auto mb-2 mb-lg0" style="z-index: 10;">
+          <li class="nav-item">
+            <a
+              href=""
+              class="nav-link active"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+              aria-controls="about contact"
+              >Info</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#about"
+              role="button"
+              class="nav-link"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="about"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#contact"
+              role="button"
+              class="nav-link"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="container fixed-top text-end mt-5">
+      <h1 class="dispaly-1">
+        Hi. I am <span class="badge bg-secondary">Norbert</span>
+      </h1>
+      <h2 class="display-3">Web developer</h2>
+
+
+    <!-- HEADER > Portfolio & Email Btn Group -->
+    <div class="btn-group">
+      <!-- Profile Btn -->
+      <button
+        class="btn btn-outline-danger text-uppercase"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#portfolio"
+        aria-controls="portfolio"
+      >
+        my portfolio
+      </button>
+
+      <!-- Email Btn -->
+      <button
+        class="btn btn-danger"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#email"
+        aria-controls="email"
+      >
+        <i class="bi bi-envelope-open"></i>
+      </button>
+    </div>
+    <!-- HEADER > About & Contact dropdown content -->
+    <div class="row mt-3">
+      <!-- About  -->
+      <div class="col-md-6 mt-3">
+        <div class="collapse multi-collapse" id="about">
+          <div class="card card-body text-start shadow bg-dark-transparent">
+            <h5 class="card-title text-danger">About</h5>
+            <div class="card-text">
+              <h3 class="text-white-50 ms-3">Norbert BM</h3>
+              <ul class="list-unstyled ms-5">
+                <li>CEO of Menyhart Media</li>
+                <li>Full Stack Web Developer</li>
+                <li>Course teacher</li>
+                <li>YouTube content creator</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="col-md-6 mt-3">
+        <div class="collapse multi-collapse" id="contact">
+          <div class="card card-body text-start shadow bg-dark-transparent">
+            <h5 class="card-title text-danger">Contact</h5>
+            <div class="card-text">
+              <h3 class="text-white-50 ms-3">Get in touch:</h3>
+              <ul class="list-unstyled ms-5">
+                <li>
+                  <i class="bi bi-house me-2 text-danger"></i>City: The City
+                </li>
+                <li>
+                  <i class="bi bi-signpost me-2 text-danger"></i>Street: 21
+                  Jump Str.
+                </li>
+                <li>
+                  <i class="bi bi-telephone me-2 text-danger"></i>Phone:
+                  +555-555-555
+                </li>
+                <li>
+                  <i class="bi bi-envelope me-2 text-danger"></i>Email:
+                  contact@mail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+    <!-- PROFILE IMG -->
+    <!-- PORTFOLIO OFFCANVES CONTENT -->
+    <!-- EMAIL OFFCANVES CONTENT -->
+    <!-- FOOTER -->
+
+
+
+
+</body>
+</html>
