@@ -35,3 +35,49 @@ h1{
     }
 }
 ```
+
+## Sass Partial
+
+```scss
+
+// _variable.scss
+$bg: #000;
+$primary: #373633;
+
+//_bass.scss
+@use "variable";
+body{
+    background: variables.$bg;
+}
+
+//style.scss
+//start with an underscore _
+//@use copies code
+//namespaces and variable
+//as shortcut
+@use "variable" as var;
+@use "base";
+h1{
+    color: var.$primary;
+}
+```
+
+## Parent Selector
+
+```scss
+
+.box{
+    padding: 1em 2em;
+    h1 {
+        color: red;
+    } 
+    // box-primary
+     &-primary{
+        background: #333;
+     }
+     // box inside container
+     .container & {
+        text-align: right;
+     }
+}
+```
